@@ -8,7 +8,7 @@ estimation provides statistical and practical advantages over likelihood-based m
 This paper introduces an efficient regularized variational Bayesian expectation-maximization (VBEM) algorithm to accelerate the estimation of MNLFA models.
 
 The Data file folder includes five files. Nrstan26.R implements the MCMC method for the nonuniform model in the real data. 
-NUvb.R implements our VBEM method for the nonuniform model in the real data. Urstan26.R implements the MCMC method for the uniform model in the real data. Uvb.R implements our VBEM method for the uniform model in the real data. b21d.csv is the final data file.
+NUvb.R implements our VBEM method for the nonuniform model in the real data. Urstan26.R implements the MCMC method for the uniform model in the real data. Uvb.R implements our VBEM method for the uniform model in the real data. b21f.csv is the final data file.
 
 The rstanNN1500LS file folder includes the regularized MCMC estimation procedure for the nonuniform model under the condition of N=1500, 20% DIF and small DIF.
 
