@@ -10,6 +10,8 @@ This paper introduces an efficient regularized variational Bayesian expectation-
 The Data file folder includes five files. Nrstan26.R implements the regularized MCMC method for the nonuniform model in the real data. 
 NUvb.R implements our regularized VBEM method for the nonuniform model in the real data. Urstan26.R implements the regularized MCMC method for the uniform model in the real data. Uvb.R implements our regularized VBEM method for the uniform model in the real data. b21f.csv is the final data file.
 
+The FreqNN1500LS file folder includes the frequentist Lasso estimation procedure for the nonuniform model under the condition of N=1500, 20% DIF and small DIF.
+
 The VBEMNN1500LS file folder includes the regularized VBEM estimation procedure for the nonuniform model under the condition of N=1500, 20% DIF and small DIF.
 
 The VBEMUN1500LS file folder includes the regularized VBEM estimation procedure for the uniform model under the condition of N=1500, 20% DIF and small DIF.
