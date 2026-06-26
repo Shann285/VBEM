@@ -5,7 +5,8 @@ MNLFA has emerged as a significant and flexible psychometric model for examining
 Since MNLFA models can accommodate various types of response variables, with model parameters moderated by a range of exogenous covariates, model estimation becomes a critical issue. 
 Recent research has explored the use of Markov chain Monte Carlo (MCMC) estimation for MNLFA. While MCMC
 estimation provides statistical and practical advantages over likelihood-based metheods, it is computationally demanding and time-consuming. 
-This paper introduces an efficient regularized variational Bayesian expectation-maximization (VBEM) algorithm to accelerate the estimation of MNLFA models.
+This paper introduces an efficient regularized variational Bayesian expectation-maximization (VBEM) algorithm to accelerate the estimation of MNLFA models. 
+The regularized MCMC estimation and frequentist Lasso estimation are also implemented for comparison.
 
 The Data file folder includes five files. Nrstan26.R implements the regularized MCMC method for the nonuniform model in the real data. 
 NUvb.R implements our regularized VBEM method for the nonuniform model in the real data. Urstan26.R implements the regularized MCMC method for the uniform model in the real data. Uvb.R implements our regularized VBEM method for the uniform model in the real data. b21f.csv is the final data file.
