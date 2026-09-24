@@ -3,7 +3,7 @@ An efficient regularized variational Bayesian estimation for assessing measureme
 
 MNLFA has emerged as a significant and flexible psychometric model for examining measurement invariance (MI) and differential item functioning (DIF). Since MNLFA models can accommodate various types of response variables, with model parameters moderated by a range of exogenous covariates, model estimation becomes a critical issue. Recent research has explored the use of Markov chain Monte Carlo (MCMC) estimation for MNLFA. While MCMC estimation provides statistical and practical advantages over likelihood-based metheods, it is computationally demanding and time-consuming. 
 
-This paper introduces an efficient regularized variational Bayesian expectation-maximization (VBEM) algorithm to accelerate the estimation of MNLFA models. For comparison, the regularized MCMC estimation, the regularized ADVI and frequentist Lasso estimation are also implemented.
+This paper introduces an efficient regularized variational Bayesian expectation-maximization (VBEM) algorithm to accelerate the estimation of MNLFA models. For comparison, the regularized MCMC estimation, the regularized ADVI estimation and frequentist Lasso estimation are also implemented.
 
 The ADVINN1500LS file folder includes two files. MNU.stan is the stan model file. NUrstanvb.R implements the regularized ADVI estimation procedure for the nonuniform model under the condition of N=1500, 20% DIF and small DIF.
 
