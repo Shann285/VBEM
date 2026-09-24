@@ -5,11 +5,11 @@ MNLFA has emerged as a significant and flexible psychometric model for examining
 
 This paper introduces an efficient regularized variational Bayesian expectation-maximization (VBEM) algorithm to accelerate the estimation of MNLFA models. For comparison, the regularized MCMC estimation, the regularized ADVI and frequentist Lasso estimation are also implemented.
 
-The Data file folder includes five files. Nrstan26.R implements the regularized MCMC method for the nonuniform model in the real data. NUvb.R implements our regularized VBEM method for the nonuniform model in the real data. NUfreql.R implements the frequentist Lasso estimation for the nonuniform model in the real data. Urstan26.R implements the regularized MCMC method for the uniform model in the real data. Uvb.R implements our regularized VBEM method for the uniform model in the real data. b21f.csv is the final data file.
+The ADVINN1500LS file folder includes two files. MNU.stan is the stan model file. NUrstanvb.R implements the regularized ADVI estimation procedure for the nonuniform model under the condition of N=1500, 20% DIF and small DIF.
 
-The ADVINN1500LS file folder includes the regularized ADVI estimation procedure for the nonuniform model under the condition of N=1500, 20% DIF and small DIF.
+The ADVIUN1500LS file folder includes two files. MU.stan is the stan model file. Urstanvb.R implements the regularized ADVI estimation procedure for the uniform model under the condition of N=1500, 20% DIF and small DIF.
 
-The ADVIUN1500LS file folder includes the regularized ADVI estimation procedure for the nuniform model under the condition of N=1500, 20% DIF and small DIF.
+The Data file folder includes six files. NUrstan26.R implements the regularized MCMC method for the nonuniform model in the real data. NUvb.R implements our regularized VBEM method for the nonuniform model in the real data. Ufreq.R implements the frequentist Lasso estimation for the nonuniform model in the real data. Urstan.R implements the regularized MCMC method for the uniform model in the real data. Uvb.R implements our regularized VBEM method for the uniform model in the real data. b21f.csv is the final data file.
 
 The FreqNN1500LS file folder includes the frequentist Lasso estimation procedure for the nonuniform model under the condition of N=1500, 20% DIF and small DIF.
 
