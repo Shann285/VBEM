@@ -155,13 +155,3 @@ print(g)
 round(L2new[1:(2*J+J*P+2*P)],3)
 
 save.image(paste("Datavb922",".RData",sep=""))
-
-
-
-
-
-
-
-
-
-
