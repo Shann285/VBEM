@@ -67,7 +67,7 @@ for(CIR in 1:CNUM){
 }
 
 
-for(CIR in 1:5){
+for(CIR in 1:CNUM){
   bt <- proc.time()
   y <- matrix(0, nrow=N, ncol=J)
   x <- matrix(0, nrow=N, ncol=P)
